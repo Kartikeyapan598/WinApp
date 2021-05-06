@@ -151,7 +151,9 @@
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Render.h" />
     <ClInclude Include="src\Wind.h" />
+    <ClInclude Include="src\WindCopy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

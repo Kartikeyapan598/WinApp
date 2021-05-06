@@ -23,5 +23,11 @@
     <ClInclude Include="src\Wind.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WindCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
