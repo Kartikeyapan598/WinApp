@@ -126,13 +126,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 {
 	HMENU hMenu;
 	POINT point;
-	if (msg == WM_RBUTTONDOWN)
+	if (hwnd == m_Rhwnd)
 	{
-		bool value = 1 ? (hwnd == m_Rhwnd) : false;
-		if (value)
-		{
-			return ChildProc(m_Rhwnd, msg, wparam, lparam);
-		}
+		return ChildProc(hwnd, msg, wparam, lparam);
 	}
 	
 	switch (msg)
