@@ -5,7 +5,7 @@ bin-int/
 #Files
 *.sln
 *.user
-*.vcxproj
+Wind.vcxproj
 *.filters
 
 #Visual studio files and folders
