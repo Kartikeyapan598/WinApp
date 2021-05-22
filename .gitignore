@@ -3,7 +3,10 @@ bin/
 bin-int/
 
 #Files
+*.sln
 *.user
+*.vcxproj
+*.filters
 
 #Visual studio files and folders
 .vs/
